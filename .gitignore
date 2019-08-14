@@ -1,3 +1,9 @@
+# Script for development
+test.py
+
+# Dev Env
+.vscode
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

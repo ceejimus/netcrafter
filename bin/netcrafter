@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+from netcrafter import netcraft
+
+if __name__ == '__main__':
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument('domain', help='Domain to search', type=str)
+    args = parser.parse_args()
+    netcraft(args.domain)
